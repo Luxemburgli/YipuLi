@@ -1,6 +1,12 @@
-2024-11-03  17:47
-Tags: #Course/Sem/Measure_Theoretic_Probability #Measure_Theory #Probability_Theory
-
+---
+title: Convolution and the Sum of Random Variables
+draft: false
+tags:
+  - "#Course/Sem/Measure_Theoretic_Probability"
+  - "#Measure_Theory"
+  - "#Probability_Theory"
+date:
+---
 It turns out that from the probability perspective, convolution of two functions can be seen as the probability of the sum of the two functions, understood as random variables.
 
 For two independent variables $X$ and $Y$, with distribution $\mu$ and $\nu$, $$
