@@ -13,8 +13,7 @@ We start to investigate some transformastions on the reals that relates meager s
 
 First, if $F$ is a closed nowhere dense set of $I = [0,1]$, the following homeomorphism takes $F$ to a null set, $G = I - F$ and $m$ is the Lebesgue Measure:
 $$
-h(x) = \frac{m([0,x]\cap G)}{m(G)}
-$$
+h(x) = \frac{m([0,x]\cap G)}{m(G)}$$
 This is a strictly increasing continuous map ranging over $[0,1]$, hence it is a homeomorphism. To see $h[F]$ is null, write $G$ as a union of disjoint rational intervals, $\bigcup_{i\in \omega}I_{i}$, then $h(\bigcup_{i\in \omega}I_{i}) = I$ and hence the complement of $G$ is null.
 
 ----
@@ -31,14 +30,12 @@ We need the following theorem, which is from [[Measure and Category Ch. 9, 12 Me
 **Theorem 9.1 For a topologically complete metric space, the complement of a meager set is dense.**
 
 Consider the set $C_{1}$ of continuous maps of $[0,1]$ to $\mathbb{R}$ fixing $0,1$ and $$
-H_{n} = \left\{ f\in C[0,1]\mid f(x)\neq f(y) \text{ if }|x-y|\geq \frac{1}{n} \right\}
-$$Let $H = C_{1}\cap \bigcap H_{n}$, then $H$ is complete by Alexandroff theorem in [[Measure and Category Ch. 9, 12 Metric spaces]].
+H_{n} = \left\{ f\in C[0,1]\mid f(x)\neq f(y) \text{ if }|x-y|\geq \frac{1}{n} \right\}$$Let $H = C_{1}\cap \bigcap H_{n}$, then $H$ is complete by Alexandroff theorem in [[Measure and Category Ch. 9, 12 Metric spaces]].
 
 **Theorem 13.1 For any set $A$ that is meager in $I = [0,1]$, there is $h\in H$ s.t. $h(A)$ is null**
 
 Let $A = \bigcup A_{n}$ and $$
-E_{n,k} = \left\{ h\in H\mid m(h(\overline{A_{n}})) < \frac{1}{k} \right\}
-$$
+E_{n,k} = \left\{ h\in H\mid m(h(\overline{A_{n}})) < \frac{1}{k} \right\}$$
 $E_{n,k}$ are open dense and their intersection satisfies the requirements. 
 
 
@@ -61,8 +58,7 @@ Proof. Let $G_{\alpha},\alpha<\omega_{1}$ be an enumeration of elements in famil
 Consider $K_{\alpha} = G_{\alpha} -   \bigcup_{\gamma< \alpha} G_{\gamma}$.
 
 The family $B = \{\alpha\in \omega_{1}\mid K_{\alpha} \text{ is uncountable}\}$. $B$ is unbounded in $\omega_{1}$ as for each $\alpha$, $\bigcup_{{\gamma<\alpha}}G_{\gamma}$ is in $K$ and hence there is $G_{\alpha'}$ containing an uncountable set in $K$ that is disjoint from $\bigcup_{{\gamma<\alpha}}H_{\gamma}$ by condition 2 and 3. Enumerate $B$ as $b_{\alpha},\alpha<\omega_{1}$. Let $$
-X_{\alpha} = \bigcup_{\gamma\leq b_\alpha} G_{\gamma} - \bigcup_{\gamma<\alpha} G_{b_{\gamma}}
-$$The sets $X_{\alpha},\alpha<\omega_{1}$ form a $\aleph_{1}$ family that is disjoint, each belongs to $K$ and of cardinality $\aleph_{1}$ as $X_{\alpha}\supseteq K_{b_{\alpha}}$.
+X_{\alpha} = \bigcup_{\gamma\leq b_\alpha} G_{\gamma} - \bigcup_{\gamma<\alpha} G_{b_{\gamma}}$$The sets $X_{\alpha},\alpha<\omega_{1}$ form a $\aleph_{1}$ family that is disjoint, each belongs to $K$ and of cardinality $\aleph_{1}$ as $X_{\alpha}\supseteq K_{b_{\alpha}}$.
 
 For each $G_{\alpha}$, $G_{\alpha}\subseteq \bigcup_{\gamma\leq b_\delta} G_{\gamma}\subseteq \bigcup_{\alpha\leq \delta} X_{\alpha}$. Here $b_{\delta}$ is some ordinal greater than $\alpha$.
 
@@ -122,11 +118,9 @@ But indeed there could not be a bijection s.t. $f = f^{-1}$ and $E$ is Baire iff
 **Proposition there is no bijection $f$ s.t. $f = f^{-1}$ and $E$ is Baire iff $f(E)$ is Lebesgue measurable.**
 
 Proof. Suppose for contradiction that $f$ is such a map. Let $I = (0,1)$ and $E = f^{-1}(I)$. Let $x_{1},x_{2}\dots$ be a countable dense subset of $E$ (say $\mathbb{Q}\cap E$), and $I_{i}$ be an open interval containing $x_{i}$ s.t. $$
-m(f(I_{i})\cap I)< \frac{1}{2^{i+1}}
-$$Let $G = \bigcup I_{i}$ and $E\subseteq \overline{G}$
+m(f(I_{i})\cap I)< \frac{1}{2^{i+1}}$$Let $G = \bigcup I_{i}$ and $E\subseteq \overline{G}$
 Notice $E\subseteq (G\cap E)\cup (\overline{G}-G)$ and hence$$
-I = f(E) \subseteq f(G\cap E)\cup f(\overline{G}-G) \subseteq\bigcup (f(I_{i})\cap I) \cup f(\overline{G} - G)
-$$ As $\overline{G} - G$ is no where dense, $f(\overline{G} - G)$ is null, since a set if null iff every subset of it is Lebesgue measurable by theorem 5.5 in [[Measure and Category Ch.5 Non-Measurable Sets]]. $\Box$
+I = f(E) \subseteq f(G\cap E)\cup f(\overline{G}-G) \subseteq\bigcup (f(I_{i})\cap I) \cup f(\overline{G} - G)$$ As $\overline{G} - G$ is no where dense, $f(\overline{G} - G)$ is null, since a set if null iff every subset of it is Lebesgue measurable by theorem 5.5 in [[Measure and Category Ch.5 Non-Measurable Sets]]. $\Box$
 
 Hence $m(I)\leq \sum_{i} \frac{1}{2^{i+1}} = \frac{1}{2}$. This is a contradiction. 
 

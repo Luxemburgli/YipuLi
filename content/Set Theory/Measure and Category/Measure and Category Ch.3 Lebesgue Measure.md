@@ -22,17 +22,14 @@ Now we start to discuss the density of Lebesgue measurable sets.
 
 *Definition* A measurable set $E\subseteq \mathbb{R}$ is said to have density $d$ at $x\in \mathbb{R}$, if
 $$
-\lim_{ h \to 0 } \frac{m(E\cap [x-h,x+h])}{2h}  = d
-$$
+\lim_{ h \to 0 } \frac{m(E\cap [x-h,x+h])}{2h}  = d$$
 
 Now let's denote $\phi(E)$ as $\{x\mid E\text{ has density 1  at } x\}$. Now observe that $x\in \phi(\mathbb{R} - E)$ iff 
 $$
-\lim_{ h \to 0 } \frac{m( [x-h,x+h] - E)}{2h}  = 1
-$$
+\lim_{ h \to 0 } \frac{m( [x-h,x+h] - E)}{2h}  = 1$$
 iff 
 $$
-\lim_{ h \to 0 } \frac{m(E \cap [x-h,x+h])}{2h}  = 0
-$$
+\lim_{ h \to 0 } \frac{m(E \cap [x-h,x+h])}{2h}  = 0$$
 Hence $x\in \phi(\mathbb{R} - E)$ iff $E$ has density $0$ at $x$.
 
 The following theorem states that for a measurable set ,it has density 1 almost everywhere.

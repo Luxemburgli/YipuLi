@@ -29,8 +29,7 @@ Proof. Observe there are exactly continuum many Perfect sets, as there are conti
 Every Bernstein set is not measurable and not Baire. This is proved by the following observation:
 
 Every measurable subset of $B,B^{c}$ is null. For measurable $A\subseteq B$, every interval contained in $A$ is trivial, as $B^{c}$ intersects with every uncountable closed sets. As $$
-\lambda(A) = sup\left\{ \sum I_{n} \mid I_{n}\text{ is a sequence of intervals in }A\right\}
-$$
+\lambda(A) = sup\left\{ \sum I_{n} \mid I_{n}\text{ is a sequence of intervals in }A\right\}$$
 It must be equal to 0. 
 
 Every Baire subset of $B,B^{c}$ is meagre. For $A\subseteq B$ that is Baire, write $A=G\cup M$ where $G$ is $G_{\delta}$ and $M$ is meagre. Then $G$ is countable as otherwise it would contain a perfect set, which intersects $B^{c}$. Hence $A$ is meagre.
@@ -52,8 +51,7 @@ Here we mix the material in Oxtoby and Jech.
 2. The union of each column is different from $\aleph_{1}$ from an at most countable set.
 
 The existence of an Ulam matrix. For $\alpha\in \aleph_{1}$, let $f_{\alpha}$ be a one-one map from $\{\beta\mid \beta<\alpha\}$ to $\omega$. Let $$
-A_{\beta,n} = \{\alpha\mid \beta<\alpha, f_{\alpha}(\beta) = n \}
-$$
+A_{\beta,n} = \{\alpha\mid \beta<\alpha, f_{\alpha}(\beta) = n \}$$
 
 Then $A_{\beta,n}\cap A_{\beta',n} = \emptyset$ as each $f_{\alpha}$ is one-one. The union of each column is $\{\alpha\mid \alpha > \beta\}$, thus cocountable.
 

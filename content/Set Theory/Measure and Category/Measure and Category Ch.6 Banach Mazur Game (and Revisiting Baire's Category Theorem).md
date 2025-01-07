@@ -31,8 +31,7 @@ If $x\in A$, then $x$ cannot be forced my (A), which means that there should be 
 
 Then there should be a sequence of move $t$ s.t. whatever (A) chooses to move later on, (B) can move to avoid $x$. i.e.
 $$
-a\in \bigcup_{t\text{ a sequence of move}}\bigcap_{I\subset t_{2n}}\tau(t,I)^{c}
-$$
+a\in \bigcup_{t\text{ a sequence of move}}\bigcap_{I\subset t_{2n}}\tau(t,I)^{c}$$
 
 The set $\bigcap_{I\subset t_{2n}}\tau(t,I)$ should be nowhere dense in as its complement is $\bigcup_{I\subset t_{2n}}\tau(t,I)$, which is open dense in $t_{2n}$ (for whatever interval I, $\tau(t,I)$ is in that interval!). 
 
