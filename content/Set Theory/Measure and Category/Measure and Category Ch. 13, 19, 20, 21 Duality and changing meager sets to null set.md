@@ -31,12 +31,14 @@ We need the following theorem, which is from [[Measure and Category Ch. 9, 12 Me
 **Theorem 9.1 For a topologically complete metric space, the complement of a meager set is dense.**
 
 Consider the set $C_{1}$ of continuous maps of $[0,1]$ to $\mathbb{R}$ fixing $0,1$ and 
+
 $$H_{n} = \left\{ f\in C[0,1]\mid f(x)\neq f(y) \text{ if }|x-y|\geq \frac{1}{n} \right\}$$
 Let $H = C_{1}\cap \bigcap H_{n}$, then $H$ is complete by Alexandroff theorem in [[Measure and Category Ch. 9, 12 Metric spaces]].
 
 **Theorem 13.1 For any set $A$ that is meager in $I = [0,1]$, there is $h\in H$ s.t. $h(A)$ is null**
 
 Let $A = \bigcup A_{n}$ and 
+
 $$E_{n,k} = \left\{ h\in H\mid m(h(\overline{A_{n}})) < \frac{1}{k} \right\}$$
 
 $E_{n,k}$ are open dense and their intersection satisfies the requirements. 
@@ -61,6 +63,7 @@ Proof. Let $G_{\alpha},\alpha<\omega_{1}$ be an enumeration of elements in famil
 Consider $K_{\alpha} = G_{\alpha} -   \bigcup_{\gamma< \alpha} G_{\gamma}$.
 
 The family $B = \{\alpha\in \omega_{1}\mid K_{\alpha} \text{ is uncountable}\}$. $B$ is unbounded in $\omega_{1}$ as for each $\alpha$, $\bigcup_{{\gamma<\alpha}}G_{\gamma}$ is in $K$ and hence there is $G_{\alpha'}$ containing an uncountable set in $K$ that is disjoint from $\bigcup_{{\gamma<\alpha}}H_{\gamma}$ by condition 2 and 3. Enumerate $B$ as $b_{\alpha},\alpha<\omega_{1}$. Let 
+
 $$X_{\alpha} = \bigcup_{\gamma\leq b_\alpha} G_{\gamma} - \bigcup_{\gamma<\alpha} G_{b_{\gamma}}$$
 The sets $X_{\alpha},\alpha<\omega_{1}$ form a $\aleph_{1}$ family that is disjoint, each belongs to $K$ and of cardinality $\aleph_{1}$ as $X_{\alpha}\supseteq K_{b_{\alpha}}$.
 
