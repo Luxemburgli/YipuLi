@@ -12,8 +12,9 @@ We start to investigate some transformastions on the reals that relates meager s
 ---
 
 First, if $F$ is a closed nowhere dense set of $I = [0,1]$, the following homeomorphism takes $F$ to a null set, $G = I - F$ and $m$ is the Lebesgue Measure:
-$$
-h(x) = \frac{m([0,x]\cap G)}{m(G)}$$
+
+$$h(x) = \frac{m([0,x]\cap G)}{m(G)}$$
+
 This is a strictly increasing continuous map ranging over $[0,1]$, hence it is a homeomorphism. To see $h[F]$ is null, write $G$ as a union of disjoint rational intervals, $\bigcup_{i\in \omega}I_{i}$, then $h(\bigcup_{i\in \omega}I_{i}) = I$ and hence the complement of $G$ is null.
 
 ----
@@ -103,7 +104,7 @@ Since $E$ is comeager, its complement is contained in countably many $X_{\alpha}
 
 Dually, 
 
-**Proposition 20.1* (Lusin set, assuming $add(\mathcal{N}) = add(\mathcal{M}) = 2^{{\omega}}$ and AC) Any set $E\subseteq \mathbb{R}$ that is of positive measure have a subset $N$ of power $2^{{\omega}}$ s.t. every uncountable subset of it is has positive measure**
+**Proposition 20.1' (Lusin set, assuming $add(\mathcal{N}) = add(\mathcal{M}) = 2^{{\omega}}$ and AC) Any set $E\subseteq \mathbb{R}$ that is of positive measure have a subset $N$ of power $2^{{\omega}}$ s.t. every uncountable subset of it is has positive measure**
 
 As a corollary, there is a subspace of $\mathbb{R}$ s.t. a set is meager iff it is countable and comeager iff it is uncountable. (Join $N$ from proposition 20.1 with a countable dense set.)
 
