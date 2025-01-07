@@ -12,9 +12,7 @@ We start to investigate some transformastions on the reals that relates meager s
 ---
 
 First, if $F$ is a closed nowhere dense set of $I = [0,1]$, the following homeomorphism takes $F$ to a null set, $G = I - F$ and $m$ is the Lebesgue Measure:
-
 $$h(x) = \frac{m([0,x]\cap G)}{m(G)}$$
-
 This is a strictly increasing continuous map ranging over $[0,1]$, hence it is a homeomorphism. To see $h[F]$ is null, write $G$ as a union of disjoint rational intervals, $\bigcup_{i\in \omega}I_{i}$, then $h(\bigcup_{i\in \omega}I_{i}) = I$ and hence the complement of $G$ is null.
 
 ----
