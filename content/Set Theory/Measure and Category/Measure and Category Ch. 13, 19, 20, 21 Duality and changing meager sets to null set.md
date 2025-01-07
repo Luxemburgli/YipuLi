@@ -32,7 +32,7 @@ We need the following theorem, which is from [[Measure and Category Ch. 9, 12 Me
 
 Consider the set $C_{1}$ of continuous maps of $[0,1]$ to $\mathbb{R}$ fixing $0,1$ and 
 
-$$H_{n} = \left \{ f\in C[0,1]\mid f(x)\neq f(y) \text{ if }|x-y|\geq \frac{1}{n} \right \}$$
+$$H_{n} = \{ f\in C[0,1]\mid f(x)\neq f(y) \text{ if }|x-y|\geq \frac{1}{n} \}$$
 
 Let $H = C_{1}\cap \bigcap H_{n}$, then $H$ is complete by Alexandroff theorem in [[Measure and Category Ch. 9, 12 Metric spaces]].
 
@@ -40,7 +40,7 @@ Let $H = C_{1}\cap \bigcap H_{n}$, then $H$ is complete by Alexandroff theorem i
 
 Let $A = \bigcup A_{n}$ and 
 
-$$E_{n,k} = \left \{ h\in H\mid m(h(\overline{A_{n}})) < \frac{1}{k} \right \}$$
+$$E_{n,k} = \{ h\in H\mid m(h(\overline{A_{n}})) < \frac{1}{k} \}$$
 
 $E_{n,k}$ are open dense and their intersection satisfies the requirements. 
 
