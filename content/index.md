@@ -24,12 +24,16 @@ Aside from these, I have great amateur interests in Chinese classics, ancient an
 ### Miscellaneous
 #### Here are some study notes of mine.
 My study note in Iterated forcing, Martin's Axiom and Solovay model: [[Note_for_the_forcing_project (1).pdf]].
+
 My study notes for the book  [Measure and Category](https://link.springer.com/book/10.1007/978-1-4684-9339-9) : [[Notes for Measure and Category]].
+
 My study notes for descriptive set theory: [[Notes for Descriptive Set Theory]].
 
 #### Here are some of my thoughts and leisure readings I feel like sharing.
 [[My leisure readings]](Unfortunately, the page is in Chinese, at least for now.)
+
 [[My thoughts]]
+
 [[My Cooking]]
 
 -----
