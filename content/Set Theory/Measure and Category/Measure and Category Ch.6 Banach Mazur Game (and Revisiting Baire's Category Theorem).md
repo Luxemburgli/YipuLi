@@ -1,6 +1,12 @@
-2024-11-06  23:29
-Tags: #measure_and_category #Game #Topology 
-
+---
+title: Measure and Category Ch.6 Banach Mazur Game (and Revisiting Baire's Category Theorem)
+draft: false
+tags:
+  - "#measure_and_category"
+  - "#Game"
+  - "#Topology"
+date:
+---
 *Theorem*(Baire's Category Theorem) The complement of countable union of nowhere dense set is dense.
 
 Proof. The strategy is to be one-step-a-time pick a closed interval disjoint from the nowhere dense set. So that the final intersection is not empty by completeness of the real, yet it avoids all the nowhere dense sets.

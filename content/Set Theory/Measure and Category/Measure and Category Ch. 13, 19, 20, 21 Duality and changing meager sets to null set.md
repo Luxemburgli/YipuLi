@@ -1,6 +1,12 @@
-2024-12-08  21:26
-Tags: #measure_and_category  #Measure_Theory  #Duality
-
+---
+title: Measure and Category Ch. 13, 19, 20, 21 Duality and changing meager sets to null set
+draft: false
+tags:
+  - "#measure_and_category"
+  - "#Measure_Theory"
+  - "#Topology"
+date:
+---
 We start to investigate some transformastions on the reals that relates meager sets and null sets.
 
 ---

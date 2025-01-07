@@ -1,6 +1,11 @@
-2024-11-05  17:49
-Tags: #measure_and_category #Topology
-
+---
+title: Measure and Category Ch.4 Baire Property
+draft: false
+tags:
+  - "#measure_and_category"
+  - "#Topology"
+date:
+---
 *Definition* A set $A\subseteq \mathbb{R}$ has the property of Baire if there is open $U$ and meagre $M$ s.t. $A = U\Delta M$.
 
 *Theorem 4.4* $A$ has the Baire property iff it can be wrtten as $G_{\delta}$ set union a meagre set, (or a $F_{\delta}$ set minus a meagre set.)

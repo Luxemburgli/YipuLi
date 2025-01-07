@@ -1,6 +1,11 @@
-2024-11-06  20:47
-Tags: #measure_and_category #Measure_Theory 
-
+---
+title: Measure and Category Ch.5 Non-Measurable Sets
+draft: false
+tags:
+  - "#measure_and_category"
+  - "#Measure_Theory"
+date:
+---
 The following construction shows that the real can be partitioned into a null a set and a meagre set, thus a set small in the measure theoretic sense and the other small in the topological sense.
 
 Fix an enumeration of the rationals $\{q_{m}\mid m\in \mathbb{N}\}$. Let $U_{n,m}$ be the following sequence of open intervals, $(q_{m} - \frac{1}{2^{m}n}, q_{m} + \frac{1}{2^{m}n})$. Then $\lambda\left( \bigcup_{m}U_{n,m} \right)\leq \sum_{m}\frac{1}{2^{m-1}n} = \frac{4}{n}$ and hence $\lambda(\bigcap_{n}\bigcup_{m}U_{n,m}) = 0$ and $B = \bigcap_{n}\bigcup_{m}U_{n,m}$. On the other hand, each $\bigcap_{m} U_{n,m}^{c}$ is nowhere dense as $\bigcup_{m}U_{n,m}$ is open dense. Hence the complement of $B$ is meagre.

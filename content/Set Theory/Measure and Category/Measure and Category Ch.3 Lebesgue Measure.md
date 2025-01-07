@@ -1,7 +1,12 @@
-2024-11-05  15:43
-Tags: #measure_and_category #Measure_Theory 
-
-Here we collect some more properties of lebesgue measure. A set is $F_{\delta}$ if it is a countable union of the closed sets. A set is $G_{\delta}$ if it is a countable intersection of the open sets.
+---
+title: Measure and Category Ch.3 Lebesgue Measure
+draft: false
+tags:
+  - "#measure_and_category"
+  - "#Measure_Theory"
+date:
+---
+ Here we collect some more properties of lebesgue measure. A set is $F_{\delta}$ if it is a countable union of the closed sets. A set is $G_{\delta}$ if it is a countable intersection of the open sets.
 
 *Theorem 3.15*($AC_\omega$) A set $A$ is measurable iff it can be written as a $F_{\delta}$ set unions a null set. (or as a $G_{\delta}$ set minus a null set.)
 

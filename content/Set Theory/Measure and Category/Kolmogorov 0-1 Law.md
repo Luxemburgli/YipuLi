@@ -1,8 +1,12 @@
-2024-11-03  21:56
-Tags: #Course/Sem/Measure_Theoretic_Probability #Measure_Theory 
-
+---
+title: Kolmogorov 0-1 Law
+draft: false
+tags:
+  - "#Course/Sem/Measure_Theoretic_Probability"
+  - "#Measure_Theory"
+date:
+---
 For a sequence of i.i.d. variables $X_{1},\dots,X_{k}$, a tail set is a set in $\bigcap_{k}\sigma(X_{k},X_{k+1},\dots)$. In other words, it is a set where arbitrary finite random variable does not matter. 
-
 
 >**Theorem (Kolmogorov 0-1 Law)** For any tail set $A$, $p(A) = 0$ or 1. 
 

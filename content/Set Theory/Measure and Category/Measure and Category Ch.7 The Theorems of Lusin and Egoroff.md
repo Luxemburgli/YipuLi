@@ -1,6 +1,11 @@
-2024-11-14  20:14
-Tags: #measure_and_category #Measure_Theory 
-
+---
+title: Measure and Category Ch.7 The Theorems of Lusin and Egoroff
+draft: false
+tags:
+  - "#measure_and_category"
+  - "#Measure_Theory"
+date:
+---
 We say a function $f:$ $\mathbb{R} \to \mathbb{R}$ is measurable iff each basic open set is reflected to a measurable set, and $f$ is Baire iff each open set is reflected to a set with the property of Baire.
 
 **Theorem 8.1 A real valued function on $\mathbb{R}$ is Baire iff it's restriction on a comeager set is continuous**

@@ -1,6 +1,11 @@
-2024-12-03  23:00
-Tags: #measure_and_category #Measure_Theory 
-
+---
+title: Measure and Category Ch.14, 15 Fubini's Theorem and Kuratowski-Ulam Theorem
+draft: false
+tags:
+  - "#measure_and_category"
+  - "#Measure_Theory"
+date:
+---
 The following is the Fubini's thoerem I learnt from measure theoretic probability class:
 
 If $\pi$ is the product measure of $\mu$ and $\nu$ on space $X\times Y$, where both $\mu$ and $\nu$ are $\sigma$ finite, then $$
