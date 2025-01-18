@@ -1,6 +1,6 @@
 ---
 title: Reviewing for some basic results in DST
-draft: true
+draft: false
 tags: 
 date:
 ---
