@@ -16,4 +16,12 @@ Note:
 
 [[Suslin Sets and the Separation theorems]]
 
+[[Tree Representation and Perfect Sets]]
+
+[[Well Founded Tree, Coanalytic Sets and Sigma 1 2 Sets]]
+
+[[Kunen Martin Theorem]]
+
+Exercises in Moschovakis I wish to look into: 2E.6 - 10 2F.5, 2F.6
+
 
