@@ -5,8 +5,9 @@ tags:
 date: 2025-01-03
 ---
 Note: 
-1. I don't actually know how to type the standard boldface point class in latex. For the contents under this index, all point classes are meant to be boldface.
-2. The notes follow Moschovakis and covers Ch.1, 2 of his book.
+1. I don't actually know how to type the standard boldface point class in latex. For the contents under this index, all point classes that are boldsymboled are boldface pointclasses.
+
+The following notes follow Moschovakis and covers Ch.1, 2 of his book.
 
 [[reviewing some basic results in DST]]
 
@@ -22,6 +23,14 @@ Note:
 
 [[Kunen Martin Theorem]]
 
-Exercises in Moschovakis I wish to look into: 2E.6 - 10 2F.5, 2F.6
+----
+
+The following notes follow Jech.
+
+[[Code of WO and WF, and the Study of Sigma 1 2 sets under Recursion Theory]]
+
+[[Pointsets in Constructible Universe]]
+
+[[Solovay's Analysis of Sigma 1 2 sets]]
 
 

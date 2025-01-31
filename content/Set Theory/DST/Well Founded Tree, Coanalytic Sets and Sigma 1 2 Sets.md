@@ -43,6 +43,13 @@ Then we can fix a coding of $\omega^2\times \aleph_1$ to $\omega\times \aleph_1$
 
 Remark: The idea of the proof is to code rank functions on $T(\alpha,\beta)$ with functions in $\omega_1^\omega$.
 
+-----
+### Mostowski's Absoluteness
+**Theorem 25.4(Mostowski's Absoluteness) If $P$ is a $\boldsymbol{\Sigma}^1_1$ property s.t. $P = p[T]$ with $T$ a tree on $\omega^2$, $M$ is a model such that $T\in M$, $M\models P = p[T]$ and $M\models$ every well founded tree has a rank function, then $P$ is absolute for $M$**
+
+Proof. For $x\in M$:
+$x\in P$ iff $T(x)$ is ill-founded iff there is an infinite descending chain iff there is no rank function on $T(x)$. The first is a $\Sigma_1$ property and the second $\Pi_1$. Hence $x\in P$ iff $M\models x\in P$. $\Box$ 
+
 ----
 
 ### Inductive analysis of (non-well-founded) trees
@@ -57,9 +64,9 @@ Proof. We only verify the last equation: $\alpha\in B \text{ iff }T(\alpha)$ is 
 
 Remark: The set $B^\lambda_u$ is the set of irrationals such that the rank of $u$ along $T(\alpha)$ is below $\lambda$. The following theorem shows the usefulness of this definition. 
 
-Notice that $B^0_u = \bigcap_{\xi<\kappa}\{\alpha\mid (\alpha|_{n+1}, u\frown(\xi))\not\in T\} = \bigcap_{x\in T}\bigcap_{\xi<\kappa} \{\alpha\mid (\alpha|_{n+1},u)\neq x\}$ and hence is $\kappa+1$ Borel. 
+Notice that $B^0_\emptyset = \bigcap_{\xi<\kappa}\{\alpha\mid (\alpha0, \xi)\not\in T\}$ and hence is $\kappa+1$ Borel. 
 
-It follows that $B^\lambda_u$ is $\kappa+1$ Borel, for each $\lambda,u$.
+It follows that $B^\lambda_u$ is $\kappa+1$ Borel, for each $\lambda,u$ by an induction.
 
 **2F.2 If $A$ is $\kappa$-Suslin, then $$A = \bigcup_{\lambda<\kappa^+}C_\lambda$$ $$A = \bigcap_{\lambda<\kappa^+}D_\lambda$$ for some $\kappa+1$-Borel $C_\lambda,D_\lambda$. In particular, $\boldsymbol{\Sigma}^1_1$ sets are both intersections and unions of $\aleph_1$ Borel sets**
 
@@ -85,3 +92,31 @@ Consider the point set given by $\exists^\mathcal{N},\alpha B_\xi(x,\alpha)$, it
 
 Hence $P(x)\iff \exists \xi,\zeta<\aleph_1,B_{\xi,\zeta}(x,\alpha)$.  $\Box$
 
+----
+### A Proof of Separation Theorem
+
+We apply the theory developed in this section to give a new proof of separation theorem in [[Suslin Sets and the Separation theorems]].
+
+For a given set $B$ whose complement is $\kappa$-Suslin where $\mathcal{N} - B = p[T]$, $T$ is a tree on $\omega\times \kappa$. For each $C\subseteq B$ and $u = (\xi_0\dots \xi_n)\in \omega^{<\omega}\times \kappa^{<\omega}$, we define
+$$Index(C,T,u) = sup\{\rho(T(\alpha),(\xi_0\dots \xi_n))\mid \alpha\in C\land \alpha(0) = k_0\dots \alpha(n-1) = k_{n-1}\}$$
+The definition is well defined as for each $\alpha\in B$, $T(\alpha)$ exists and obviously all $\rho(T(\alpha),(\xi_0\dots \xi_n))$ are less than $\kappa^+$ as the size of $T(\alpha)$ is $\kappa$.
+
+Now we show that for all $C\subseteq B$ that is $\kappa$-Suslin, $Index(C,T,\emptyset) < \kappa^+$.
+
+Assume for contradiction that $Index(C,T,\emptyset) = \kappa^+$, let $C = p[S]$.
+
+Now $Index(C,T,\emptyset) = sup_\alpha\{\rho(T(\alpha),\emptyset)\mid \alpha\in C\}$. 
+
+$\rho(T(\alpha),\emptyset) = sup_\xi\{\rho(T(\alpha),(\xi))+1\mid (\alpha(0),\xi)\in T\}$ and hence $$Index(C,T,\emptyset) = sup_{\xi,n\in \kappa\times \omega} sup_{\alpha\in C}\{\rho(T(\alpha),(\xi))+1\mid \alpha\in C\land \alpha(0) = n\}$$
+Since $\kappa^+$ is regular, there is $n_0,\xi_0$ s.t. $\kappa^+ = sup_{\alpha\in C}\{\rho(T(\alpha),(\xi))+1\mid \alpha\in C\land \alpha(0) = n\}$ i.e. $Index(C,T,(n_0,\xi_0)) = \kappa^+$.
+
+Similarly, $C = \bigcup_{m,\eta\in \omega\times \kappa}p[S_{(m,\eta)}]$ and hence $$Index(C,T,(n_0,\xi_0)) = \kappa^+ =\bigcup_{m,\eta\in \omega\times \kappa} Index(p[S_{(m,\eta)}],T,(n_0,\xi_0))$$
+Hence for some $m_0,\eta_0$, $\kappa^+ =Index(p[S_{(m_0,\eta_0)}],T,(n_0,\xi_0)) = sup_\alpha\{\rho(T(\alpha),(\xi_0))\mid \alpha\in p[S_{(m_0,\eta_0)}], \alpha(0) = n_0\}$. Obviously $n_0 = m_0$.
+
+Hence we can get $n_0,n_1\dots, \xi_0,\xi_1\dots \eta_0,\eta_1\dots$ recursively s.t. $$\kappa^+ =Index(p[S_{(m_0,\eta_0\dots n_{k-1},\eta_{k-1})}],T,(n_0,\xi_0\dots n_{k-1},\xi_{k-1}))$$
+Let $\alpha = (n_0,n_1\dots)$, but $\alpha\in p[S]\cap p[T]$, which is absurd given $C\subseteq B$. $\Box$
+
+**Separation Theorem**
+
+Proof. Given $A_1,A_2$ $\kappa$-Suslin and disjoint, for $B_1$ the complement of $A_1 = p[T_1]$, we can write it to $$B_1 = \bigcup_{\lambda<\kappa^+}\{\alpha\in B_1\mid \rho(T_1(\alpha),\emptyset) \leq \lambda\}$$
+By the result above, for each $C\subseteq B$ that is $\kappa$ Suslin, $C\subseteq \{\alpha\in B_1\mid \rho(T_1(\alpha),\emptyset) \leq \lambda\}$ for some $\lambda$. The latter set is just $B^\lambda_\emptyset$ and is $\kappa+1$ Borel, hence the two sets are separated by $B^\lambda_\emptyset$.

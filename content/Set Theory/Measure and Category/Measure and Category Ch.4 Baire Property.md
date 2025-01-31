@@ -10,7 +10,7 @@ date:
 
 *Theorem 4.4* $A$ has the Baire property iff it can be wrtten as $G_{\delta}$ set union a meagre set, (or a $F_{\delta}$ set minus a meagre set.)
 
-Proof The key is that the closure of a nowhere dense set is still no where dense. Hence if $A = U\Delta M$, $M$ is covered by a $F_{\delta}$ set $N$. Then $$
+Proof. The key is that the closure of a nowhere dense set is still no where dense. Hence if $A = U\Delta M$, $M$ is covered by a $F_{\delta}$ set $N$. Then $$
 U\Delta M = [(U - N)\Delta(U\cap N)]\Delta(M\Delta N) 
  = (U - N)\Delta [(U\Delta M)\cap N]
 $$
