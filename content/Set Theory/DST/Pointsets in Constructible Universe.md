@@ -21,6 +21,8 @@ Proof. Consider the set $\{(x,y)\mid x<_Ly\}$. By [[Kunen Martin Theorem]], the 
 
 Similarly, for $\mathcal{N}^2-A$ we have  $\{y\mid x\geq_Ly\}$ is countable and hence $\mathcal{N}^2-A$ if measurable must be null and if having property of Baire must be meager. Hence $A$ is neither Lebesgue Measurable nor Baire. $\Box$
 
+Note: Since there is a $\Sigma^1_2$ well-order, the vitali set would also be $\Sigma^1_2$.
+
 -----
 
 ### A $\Sigma^1_2$ that does not have the perfect set property in $L$.
@@ -36,7 +38,7 @@ This is a $\boldsymbol{\Sigma}^1_1$ relation, a contradiction. $\Box$
 
 For $z\in \mathcal{N}$, let $z_n(m) = z(\Gamma(n,m))$, here $\Gamma$ is the canonical bijection $\omega^2\to \omega$.
 
-The following says that the relation $R$ that corresponds a real $x$ to the real that codes all elements under $x$ by $<_L$ is $\Sigma^1_2$.
+The following says that the relation $R$ that corresponds a real $x$ to the real $z$ that codes the initial segment of $x$ by $<_L$ is $\Sigma^1_2$.
 
 **Lemma 25.27 The following relation $R$ is $\Sigma^1_2$. $$(z,x)\in R\iff \{z_n\mid n\in \mathbb{N}\} = \{y\mid y<_L x\}$$**
 Proof. The $\subseteq$ side is actually $\Sigma_1$ over $HC,\in$, hence a $\Sigma^1_2$ property.

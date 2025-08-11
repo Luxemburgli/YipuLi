@@ -58,9 +58,9 @@ For an arbitrary tree $T$, we let its well founded part $WF(T)$ be defined as: $
 
 Then, the rank function $\rho$ would we well defined on $WF(T)$. Set $\rho(x) = \infty$ if $x\not\in WF(T)$. If we are making the tree underlying the rank function explicit, we write $\rho(T,x)$.
 
-**2F.1 (Sierpinski) Let $T$ be a tree on $\omega\times \kappa$ and put $A = p[T]$, $B = \mathcal{N} - A$. For each sequence $u = (\xi_0\dots \xi_{n-1})\in \kappa^\omega$ from $\kappa$ and $\lambda\leq \kappa$, let $$B^\lambda_u = \{\alpha\in \mathcal{N}\mid \rho(T(\alpha), u)\leq \lambda\}$$ Then $$B^0_u = \bigcap_{\xi<\kappa}\{\alpha\mid (\alpha|_{n+1}, u\frown(\xi))\not\in T\}$$ $$B^\lambda_u = \bigcap_{\xi<\kappa}\bigcup_{\zeta<\lambda}B^\zeta_{u\frown (\xi)}$$ and $$B = \bigcup_{\lambda<\kappa^+}B^\lambda_\emptyset = B_\emptyset^\kappa$$**
+**2F.1 (Sierpinski) Let $T$ be a tree on $\omega\times \kappa$ and put $A = p[T]$, $B = \mathcal{N} - A$. For each sequence $u = (\xi_0\dots \xi_{n-1})\in \kappa^\omega$ from $\kappa$ and $\lambda\leq \kappa$, let $$B^\lambda_u = \{\alpha\in \mathcal{N}\mid \rho(T(\alpha), u)\leq \lambda\}$$ Then $$B^0_u = \bigcap_{\xi<\kappa}\{\alpha\mid (\alpha|_{len(u)+1}, u\frown(\xi))\not\in T\}$$ $$B^\lambda_u = \bigcap_{\xi<\kappa}\bigcup_{\zeta<\lambda}B^\zeta_{u\frown (\xi)}$$ and $$B = \bigcup_{\lambda<\kappa^+}B^\lambda_\emptyset = B_\emptyset^\kappa$$**
 
-Proof. We only verify the last equation: $\alpha\in B \text{ iff }T(\alpha)$ is well founded iff $\rho(T(\alpha).\emptyset)$ is defined, and it must be less than $\kappa^+$. $\Box$
+Proof. We only verify the last equation: $\alpha\in B \text{ iff }T(\alpha)$ is well founded iff $\rho(T(\alpha),\emptyset)$ is defined, and it must be less than $\kappa^+$. $\Box$
 
 Remark: The set $B^\lambda_u$ is the set of irrationals such that the rank of $u$ along $T(\alpha)$ is below $\lambda$. The following theorem shows the usefulness of this definition. 
 

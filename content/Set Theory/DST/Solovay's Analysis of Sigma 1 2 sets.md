@@ -26,7 +26,7 @@ Recall the following theorem:
 
 **Theorem 26.20 For $a\in \mathcal{N}$, every $\Sigma^1_2(a)$ is Lebesgue measurable iff reals that are random over $L[a]$ is conull.**
 
-**For $a\in \mathcal{N}$, every $\Sigma^1_2(a)$ is Lebesgue measurable iff reals that are random over $L[a]$ is comeager.**
+**For $a\in \mathcal{N}$, every $\Sigma^1_2(a)$ is Baire iff reals that are Cohen over $L[a]$ is comeager.**
 
 Proof. We only prove the case for Lebesgue Measurability. For the right to left direction: If $A$ is $\Sigma^1_2(a)$, we observe that it is Solovay over $L[a]$:
 
@@ -55,7 +55,7 @@ The following is what we got as a Corollary:
 
 **Corollary 26.21 If $\omega_1^{L[a]}<\omega_1$, then all $\Sigma^1_2(a)$ sets are Lesbegue measurable, have the Baire property and the perfect set property.**
 
-Proof. The Lesbegue measurable and the Baire property part follows from the above theorem, as if $\omega_1^{L[a]}<\omega_1$, there are only countably many Borel codes in $L[a]$ and hence the random and Cohen reals are co-null and comeagre. 
+Proof. The Lesbegue measurable and the Baire property part follows from the above theorem, as if $\omega_1^{L[a]}<\omega_1$, there are only countably many Borel codes in $L[a]$ and hence the random and Cohen reals are conull and comeagre. 
 
 The perfect set property part follows from Mansfield Solovay theorem in [[Code of WO and WF, and the Study of Sigma 1 2 sets under Recursion Theory]]. 
 
@@ -70,7 +70,7 @@ Here we show that For $a\in \mathcal{N}$, every $\Delta^1_2(a)$ is Lebesgue meas
 **Exercise 26.21 For $a\in \mathcal{N}$, every $\Delta^1_2(a)$ is Lebesgue measurable iff there is a real random over $L[a]$.**
 
 Proof. For the left to right direction, in the proof of theorem 26.20, if there is no random real over $L[a]$, then $B = \mathcal{N}$ and $$x\preceq y\iff \forall c(D(y,c)\to \neg D(x,c))$$
-Hence it is also a $\Pi^1_2(a)$ relation and hence $\preceq$ is $\Delta^1_2(2)$. Thus there is a $\Delta^1_2(2)$ null set.
+Hence it is also a $\Pi^1_2(a)$ relation and hence $\preceq$ is $\Delta^1_2(a)$. Thus there is a $\Delta^1_2(a)$ null set.
 
 For the other hand, let $r$ be a real random over $L[a]$, let $A = Q = \neg P$ where $P,Q$ are $\Sigma^1_2(a)$. Notice on the forcing notion $\mathcal{B}/I_n$, $I_n$ is the null ideal, the set $$D = \{p\mid p\Vdash P^{L[a][\dot{r}]}(\dot{r})\text{ or }p\Vdash Q^{L[a][\dot{r}]}(\dot{r})\}$$
 The set is dense as, for any ultrafilter $U$, either $\dot{r}_U\in A^{L[a][U]}$ or not. By Shoenfield absoluteness, $A^{L[a][U]} = A\cap L[a][U] = Q \cap L[a][U] = Q^{L[a][U]}$. Similarly for $\neg P$. This means either $\dot{r}_U\in P^{L[a][U]}$ or $\dot{r}_U\in Q^{L[a][U]}$. Hence $1\Vdash  P^{L[a][\dot{r}]}(\dot{r})\vee Q^{L[a][\dot{r}]}(\dot{r})$.
