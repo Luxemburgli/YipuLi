@@ -20,12 +20,7 @@ This is an absolute statement and hence $\bar{\mathcal{T}}\text{ is a putative i
 cf. Lemma 2.4, Lemma 2.5 in John Steel's note on Itreated Ultrapowers.
 
 ---
-$$\begin{equation}
-M_{\alpha+1} &= Ult(M_\alpha, U_\alpha) \\ 
-&=\{\pi^{M_\alpha}_{U_\alpha}(g)(\kappa_\alpha)\mid g\in M_\alpha^{\kappa_\alpha}\}\\
-& = \text{by IH},  \{\pi_{\alpha,\alpha+1}(\pi_{0,\alpha}(f)(a))(\kappa_\alpha)\mid a\in \{\kappa_\beta\mid \beta<\alpha\}^{<\omega}, f: [\kappa]^{|a|}\to M_0^{\kappa}\}\\
-& = \{\pi_{0,\alpha+1}(f')(a\cup\{\kappa_\alpha\})\mid a\in \{\kappa_\beta\mid \beta<\alpha\}^{<\omega}, f': [\kappa]^{|a|+1}\to M_0\}
-\end{equation}$$
+
 
 ## Problem 10.2
 
@@ -33,18 +28,18 @@ M_{\alpha+1} &= Ult(M_\alpha, U_\alpha) \\
 The base case $\alpha = 0$ is trivial.
 
 Induction step for successor $\alpha+1$: 
-$$\begin{align}M_{\alpha+1} &= Ult(M_\alpha, U_\alpha) \\ 
+$$\begin{aligned}M_{\alpha+1} &= Ult(M_\alpha, U_\alpha) \\ 
 &=\{\pi^{M_\alpha}_{U_\alpha}(g)(\kappa_\alpha)\mid g\in M_\alpha^{\kappa_\alpha}\}\\
 & = \text{by IH},  \{\pi_{\alpha,\alpha+1}(\pi_{0,\alpha}(f)(a))(\kappa_\alpha)\mid a\in \{\kappa_\beta\mid \beta<\alpha\}^{<\omega}, f: [\kappa]^{|a|}\to M_0^{\kappa}\}\\
 & = \{\pi_{0,\alpha+1}(f')(a\cup\{\kappa_\alpha\})\mid a\in \{\kappa_\beta\mid \beta<\alpha\}^{<\omega}, f': [\kappa]^{|a|+1}\to M_0\}
-\end{align}$$
+\end{aligned}$$
 The final equation holds as $\pi_{\alpha,\alpha+1}(a) = (a)$ for $a\subseteq \{\kappa_\beta\mid \beta<\alpha\}$. This equation shows the $\subseteq$ direction of the desired result. The other side is obvious.
 
-Induction step for limit $\lambda$: $$\begin{align}
+Induction step for limit $\lambda$: $$\begin{aligned}
 x\in M_\lambda &\iff \exists \alpha<\lambda, \exists y\in M_\alpha, x = \pi_{\alpha,\lambda}(y) \\
 & \iff \exists \alpha<\lambda, \exists a\in \{\kappa_\beta\mid \beta<\alpha\}^{<\omega},\exists f:[\kappa]^{|a|}\to M_0^{\kappa}, (x = \pi_{\alpha,\lambda}(\pi_{0,\alpha}(f)(a)))\\
 & \iff \exists \alpha<\lambda, \exists a\in \{\kappa_\beta\mid \beta<\alpha\}^{<\omega},\exists f:[\kappa]^{|a|}\to M_0^{\kappa},(x = \pi_{0,\lambda}(f)(a))
-\end{align}$$
+\end{aligned}$$
 This concludes the proof.
 
 This exercise shows that $M_{\alpha} = h_M(ran(\pi_{0,\alpha}), \{\kappa_\beta\mid \beta<\alpha\})$.
@@ -194,8 +189,6 @@ For the last equation, the $\subseteq$ side is easy. For the other side, if $a\i
 
 (d) For $\alpha<\pi(\xi)$, we show that there is $\eta<\xi$ s.t. $\alpha<\pi(\eta)$, which concludes the proof. Let $\alpha = [f]_U\in Ult(L[x],U)$, we may assume $f:\kappa\to \xi$. But as $cf(\xi)>cf(\kappa)$, $supf = \delta<\xi$.Hence $\alpha\leq\pi(\delta)<\pi(\delta+1)$. 
 
-
-
 By induction we show that $\pi_{0,\alpha}(\xi) = \xi$ and $cf(\xi)>({2^{Card(\kappa)}}^+)$, the successor case: since $|\kappa_{\alpha+1}|<{2^{Card(\kappa_\alpha)}}^+$, we have by the above conclusion $\pi_{0,\alpha+1}(\xi) = \pi_{0,\alpha}(\xi) = \xi$. 
 
 For the limit case since $\xi$ is a limit and $\gamma\leq {2^{Card(\kappa_\alpha)}}^+$, we have $cf(\xi)>({2^{Card(\kappa)}}^+)$. $\pi_{0,\gamma}(\xi) = \xi$ since if $\pi_{0,\gamma}(\alpha)\leq\bigcup_{\beta<\gamma}m_\beta$ where $m_\beta$ is taking $\beta$ many power for $|\alpha|$, e.g. $m_1 = 2^{|\alpha|}$, $m_1 = 2^{2^{|\alpha|}}$ ... Which is still less than $\xi$ since $\xi$ is strong limit. $\Box$
@@ -229,7 +222,7 @@ $(\omega,E_{o(x)})\models ZFC^- + V = L + \text{there is a largest cardinal}$ is
 Where $\pi_x$ is the Mostowski collapse. This is a $\Pi^1_1$ property, for the Mostowski collapse part see for instance Jech Proof of Lemma 25.25.
 
 Next consider the following relation:$$(x,y)\in Ult\iff y,x\text{  both code premice and } y\text{ codes the ultrapower of }x$$
-First we notice the ultrapower equivalence relation for $x$ is given by, for $n_1,n_2$ that are functions with domain $\omega$ in $(\omega,E_{o(x)})$ collapsed, $$n_1\equiv n_2\iff \exists m(m\in U_{e(x)}\land \forall l(\pi(l)\in \pi(m)\to \pi(n_1)(\pi(l))\in \pi(n_2)(\pi(l)))) \tag{*}$$
+First we notice the ultrapower equivalence relation for $x$ is given by, for $n_1,n_2$ that are functions with domain $\omega$ in $(\omega,E_{o(x)})$ collapsed, $$\begin{aligned}n_1\equiv n_2\iff \exists m(m\in U_{e(x)}\land \forall l(\pi(l)\in \pi(m)\to \pi(n_1)(\pi(l))\in \pi(n_2)(\pi(l)))) \\ (*) \end{aligned}$$
 
 We have $y$ codes the ultrapower of $x$ iff there is $\equiv_x\subseteq \omega^2,f\in \omega^\omega$ s.t. $\equiv_x$ is an equivalent relation satisfying $*$, $f$ respects $\equiv_x$ and is bijective $\omega\to \{n\in\omega\mid \pi_x(n)\text{ is a function with domain }\omega\} / \equiv_x$, $$n_1E_{e(y)}n_2\iff \exists m(m\in U_{e(x)}\land \forall l(\pi(l)\in \pi(m)\to \pi(n_1)(\pi(l))\in \pi(n_2)(\pi(l))))$$
 and 
@@ -364,12 +357,15 @@ Proof. To show that $\pi_{E^*}$ is elementary, it suffice to show that $\pi_E(\t
 
 Say for $[b,\dot{g}_G]_{E^*}\in [a,\dot{f}_G]_{E^*}$, by IH we have $[b,\dot{g}_G]_{E^*} = ([b,\dot{g}]_E)_g$.
 
-$$\begin{align}
+$$
+\begin{aligned}
 [b,\dot{g}_G]_{E^*}\in [a,\dot{f}_G]_{E^*} & = \exists X\in E_{a\cup b}, X\subseteq\{u\in [\mu_{a\cup b}]^{|a\cup b|}\mid \dot{g}_G^{b,a\cup b}(u)\in \dot{f}_G^{a,a\cup b}(u)\}\\
 & \iff \exists X\in E_{a\cup b}, X\subseteq\{u\in [\mu_{a\cup b}]^{|a\cup b|}\mid\exists p\in G,p\Vdash  \dot{g}^{b,a\cup b}(u)\in \dot{f}^{a,a\cup b}(u)\} \\
-& \iff \exists p\in G, p\Vdash \{u\in [\mu_{a\cup b}]^{|a\cup b|}\mid \dot{g}^{b,a\cup b}(u)\in \dot{f}^{a,a\cup b}(u)\}\in E_{a\cup b}\tag{*}\\
+& \iff \exists p\in G, p\Vdash \{u\in [\mu_{a\cup b}]^{|a\cup b|}\mid \dot{g}^{b,a\cup b}(u)\in \dot{f}^{a,a\cup b}(u)\}\in E_{a\cup b}\phantom{xxxxxxx}{(*)}\\
 & \iff ([b,\dot{g}]_E)_G\in ([a,\dot{f}]_E)_G
-\end{align}$$
+\end{aligned}
+$$
+
 Here the only non trivial step is ($*$), where left to right is by the fact that $|G|<\kappa$ and $E_{a\cup b}$ is $<\kappa$ complete.$\Box$
 
 Proof of the preservation of large cardinals. 
@@ -389,13 +385,13 @@ This is similar to preservation of strongness. Given $\delta$ Woodin in $V$, it 
 Fix $A\subseteq (V_\delta)^{V[G]}$, $\mathbb{P}$ being small, we may assume in the similar fashion as in proof of preservation of strongness that $\dot{A}$, the name of $A$, to be a subset of $V_\delta$. We apply Lemma 10.77 and pick $\kappa$ satisfying the for all $\alpha<\kappa$ there is certified $E$ s.t. $\pi_E:V\to M$ is elementary and $crit(\pi) = \kappa$, $V_\alpha\subseteq M$ and $\pi_E(\dot{A})\cap V_\alpha = \dot{A}\cap V_\alpha$.
 
 It suffice to show that for any $\alpha> |\mathbb{P}| + 2$, the corresponding $E$ satisfies: $\pi_{E_*}(A)\cap (V_\alpha)^{V[G]} = A\cap (V_\alpha)^{V[G]}$. We have by claim 10.19.2, $$
-\begin{align}
+\begin{aligned}
 \tau_G\in (V_\alpha)^{V[G]}\cap A &\iff  \exists p\in G, p\Vdash \tau \in \dot{A}\cap V_\alpha\\
 &\iff\exists p\in G\exists B\text{ a maximal antichain under }p, B\times \{\tau\}\subseteq \dot{A}\cap V_\alpha\\
 &\iff \exists p\in G \exists B\text{ a maximal antichain under }p, B\times \{\tau\}\subseteq \pi_E(\dot{A})\cap V_\alpha\\
 &\iff  \exists p\in G, p\Vdash \tau \in \pi_E(\dot{A})\cap V_\alpha\\
 &\iff \tau_G\in (V_\alpha)^{V[G]}\cap (\pi_E(\dot{A}))_G = (V_\alpha)^{V[G]}\cap \pi_{E_*}(A)
-\end{align}
+\end{aligned}
 $$
 This concludes the proof. $\Box$
 
