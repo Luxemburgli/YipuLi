@@ -20,6 +20,12 @@ This is an absolute statement and hence $\bar{\mathcal{T}}\text{ is a putative i
 cf. Lemma 2.4, Lemma 2.5 in John Steel's note on Itreated Ultrapowers.
 
 ---
+$$\begin{equation}
+M_{\alpha+1} &= Ult(M_\alpha, U_\alpha) \\ 
+&=\{\pi^{M_\alpha}_{U_\alpha}(g)(\kappa_\alpha)\mid g\in M_\alpha^{\kappa_\alpha}\}\\
+& = \text{by IH},  \{\pi_{\alpha,\alpha+1}(\pi_{0,\alpha}(f)(a))(\kappa_\alpha)\mid a\in \{\kappa_\beta\mid \beta<\alpha\}^{<\omega}, f: [\kappa]^{|a|}\to M_0^{\kappa}\}\\
+& = \{\pi_{0,\alpha+1}(f')(a\cup\{\kappa_\alpha\})\mid a\in \{\kappa_\beta\mid \beta<\alpha\}^{<\omega}, f': [\kappa]^{|a|+1}\to M_0\}
+\end{equation}$$
 
 ## Problem 10.2
 
