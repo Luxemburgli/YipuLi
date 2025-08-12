@@ -18,10 +18,13 @@ Since $F$ is a p-point, there is $Y\in F$ s.t. $F$ is constant or finite to one 
 
 (b) Let $Y_n = \bigcup_{m\geq n}X_m$ and apply (a). Then the case that $f$ is constant on $0$ cannot happen as $\bigcap_nY_n = \emptyset$. Then there is  $Y$ s.t. $f$ is finite to one on $Y$, then $Y \cap X_n$ is finite for all $n$.
 
-If in addition $F$ is selective, let $$\begin{align}
+If in addition $F$ is selective, let 
+
+\begin{align}
 f: Y&\to \omega\\
 m&\mapsto n \text{if }m\in Y\cap X_n
-\end{align}$$
+\end{align}
+
 By $F$ is selective, there is $X\subseteq Y$ s.t. $f$ is one-to-one on $X$, then the conclusion holds for $X$. $\Box$
 
 ---
