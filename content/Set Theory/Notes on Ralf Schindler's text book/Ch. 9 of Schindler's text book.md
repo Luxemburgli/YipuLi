@@ -20,10 +20,10 @@ Since $F$ is a p-point, there is $Y\in F$ s.t. $F$ is constant or finite to one 
 
 If in addition $F$ is selective, let 
 
-\begin{align}
+$$\begin{aligned}
 f: Y&\to \omega\\
 m&\mapsto n \text{if }m\in Y\cap X_n
-\end{align}
+\end{aligned}$$
 
 By $F$ is selective, there is $X\subseteq Y$ s.t. $f$ is one-to-one on $X$, then the conclusion holds for $X$. $\Box$
 
@@ -45,10 +45,10 @@ Remark: in the terminology of [Mathias' paper](https://www.sciencedirect.com/sci
 
 (a) Suffice to show that if $X_0\supseteq X_1\supseteq\dots$ for $X_i\in F$, then there is $Y\in F$ s.t. $Y = \{a_0<a_1<\dots\}$ and $a_{n+1}\in X_{a_n}$.
 
-By 9.1(a) let $Z\in F$ be s.t. $Z - X_n$ is finite for all $n$, define $$\begin{align}
+By 9.1(a) let $Z\in F$ be s.t. $Z - X_n$ is finite for all $n$, define $$\begin{aligned}
 g:\omega &\to \omega\\
 n&\mapsto max\{Z - X_n\}
-\end{align}$$
+\end{aligned}$$
 Case 1: $Y_n = (g(n),g(n+1)] = \emptyset$ for cofinitely many $n$, this means that $g(n) = g(n+1)$ for $n\geq m$ for some $m$. i.e. $Z\cap X_m$ is constant for $m$ large enough. Then let $Y$ be $Z\cap X_m$ and we are done.
 
 Case 2: For infinitely many $n$, $Y_n = (g(n),g(n+1)] \neq \emptyset$. Then we may assume that $Y_n= (g(n),g(n+1)]$ is not empty for all $n$ by redefining $g$. By 9.1 (b) there is $Z'$ s.t. there is exactly one $m\in Z'$ s.t. $g(n)\leq m<g(n+1)$. Say $Z' = \{m_0<m_1<\dots\}$, then one of $\{m_{2n}\mid n\in \omega\}, \{m_{2n+1}\mid n\in \omega\}$ is in $F$, call it $Z^*$. Let $Y = Z\cap Z^*$, then as $m_{n+2}\in X_{g(n)+1}\subseteq X_{m_n}$, we are done. $\Box$
