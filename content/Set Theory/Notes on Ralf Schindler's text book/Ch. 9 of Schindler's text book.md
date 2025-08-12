@@ -1,6 +1,6 @@
 ---
 title: Ch. 9 of Ralf Schindler
-draft: false
+draft: true
 tags: 
 date:
 ---
@@ -21,8 +21,8 @@ Since $F$ is a p-point, there is $Y\in F$ s.t. $F$ is constant or finite to one 
 If in addition $F$ is selective, let 
 
 $$\begin{aligned}
-f: Y&\to \omega\\
-m&\mapsto n \text{if }m\in Y\cap X_n
+f: Y & \to \omega\\
+m & \mapsto n \text{if }m\in Y\cap X_n
 \end{aligned}$$
 
 By $F$ is selective, there is $X\subseteq Y$ s.t. $f$ is one-to-one on $X$, then the conclusion holds for $X$. $\Box$

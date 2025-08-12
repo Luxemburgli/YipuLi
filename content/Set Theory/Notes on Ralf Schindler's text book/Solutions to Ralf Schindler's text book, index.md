@@ -9,13 +9,13 @@ I have always been fascinated by the Martin-Steel's theorem ever since I underst
 I also spent quite a lot of time solving the problems in the book, the following are the solutions for problems in Ch. 9-13.
 I'm not yet able to solve the following ones: 10.15, 12.9, 13.6.
 
-[[Ch. 9 of Schindler's text book]]
+[[Ch.9.pdf]]
 
-[[Ch. 10 of Schindler's text book]]
+[[Ch.10.pdf]]
 
-[[Ch. 11 of Schindler's text book]]
+[[Ch.11.pdf]]
 
-[[Ch. 12 of Schindler's text book]]
+[[Ch.12.pdf]]
 
-[[Ch.13 of Schindler's text book]]
+[[Ch.13.pdf]]
 
