@@ -11,6 +11,7 @@ date: 2025-01-02
 I'm currently a master student at [Institution of Logic, Language and Computation](https://www.illc.uva.nl/) at University of Amsterdam. I'm a [MSc Logic](https://msclogic.illc.uva.nl/programme/mol/) student following the logic and mathematics track. I obtained my bachelor at Peking University.
 
 I'm currently working on set theory, especially descriptive set theory. This spring and summer, I spent quite some time reading Ralf Schindler's *Set Theory Exploring Independence and Truth* and solved most of the problems in the latter chapters: [[Solutions to Ralf Schindler's text book, index]]. 
+
 During my bachelor, I also did much research in modal logic, I was interested in representing people's doxastic system with modal logic.
 [[Logic systems that models human knowledge systems]] . 
 

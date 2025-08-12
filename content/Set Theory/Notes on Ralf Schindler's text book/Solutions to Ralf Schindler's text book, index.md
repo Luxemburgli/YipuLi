@@ -10,8 +10,12 @@ I also spent quite a lot of time solving the problems in the book, the following
 I'm not yet able to solve the following ones: 10.15, 12.9, 13.6.
 
 [[Ch. 9 of Schindler's text book]]
+
 [[Ch. 10 of Schindler's text book]]
+
 [[Ch. 11 of Schindler's text book]]
+
 [[Ch. 12 of Schindler's text book]]
+
 [[Ch.13 of Schindler's text book]]
 
